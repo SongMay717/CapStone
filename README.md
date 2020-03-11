@@ -33,3 +33,8 @@ The second part of EDA is to clean and figure out the features for each sub data
 ## Modeling 
 
 With rating as my label, I chose to run simple multiple leaner regression model to kick off the process. I figured that since rating is continuous, so Regression models would be the best for predict rating. My first attempt with multiple leaner regression was successful. Due to the clean data processing and accurate feature selecting, all of my multiple leaner regression resulted above 90% without over fitting. I was very happy with the result yet I know that there always more room to improve. So, after talking to my instructor I ran random forest repressor, to my surprise, all of my scores went up to 97% on average. 
+
+## What is next
+(This part would be updated when the process is finished. If you are still reading this, it mean this part of the process is still in motion.)
+
+Though rating is a good tool for evaluating player performance, however sometimes people might prefer a more direct method of communication with less number but more describtive results. So I categorized the player performance into five different categories. It is a range from 0 to 4 where 0 represents the lest and 4 represents the best. I will run a few more Classification models and in hope to get results as good as regression models.
